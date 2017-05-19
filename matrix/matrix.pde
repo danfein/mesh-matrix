@@ -16,7 +16,7 @@ void setup() {
 
 void draw() {
   // clear background
-  background(010, 200, 20);
+  background(178, 187, 30);
 
   // update and display the circles
   for (int i=0; i< numCircles; i++) {
@@ -30,7 +30,7 @@ void draw() {
   minDistance = 5;
 
   // look of the lines
-  stroke(20, 250, 20, 100);
+  stroke(121, 131, 14, 100);
   strokeWeight(1);
 
   for (int i=0; i< numCircles; i++) {
@@ -63,7 +63,7 @@ class Circle {
   void display() {
     // code for drawing the circles
     noStroke();
-    fill(30, 100, 190, 60);
+    fill(121, 131, 14, 60);
     ellipse(x, y, dia, dia);
   }
 }
